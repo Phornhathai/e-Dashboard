@@ -2,7 +2,6 @@ import { GridColDef } from "@mui/x-data-grid";
 import DataTable from "../../components/datatable/DataTable";
 import { products } from "../../data";
 import "./inventory.scss"
-import { useState } from "react";
 import { Button } from "@mui/material";
 import { ShoppingCartRounded } from '@mui/icons-material';
 import DeleteIcon from '@mui/icons-material/Delete';
