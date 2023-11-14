@@ -1,0 +1,17 @@
+.inventory{
+
+    .info{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin-bottom: 20px;
+
+        button{
+            width: 100px;
+            padding: 5px;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 10px;
+        }
+    }
+}
