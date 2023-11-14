@@ -35,6 +35,10 @@ function App() {
       element: <Layout />,
       children: [
         {
+          path: "/",
+          element: <Overview />,
+        },
+        {
           path: "/overview",
           element: <Overview />,
         },
