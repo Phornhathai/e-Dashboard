@@ -1,170 +1,93 @@
 export const menu = [
-    {
+  {
     id: 1,
     title: "home",
     listItems: [
       {
         id: 1,
         title: "Overview",
-        url: "/",
+        url: "/overview",
         icon: "home.svg",
       },
-      // {
-      //   id: 2,
-      //   title: "Profile",
-      //   url: "/users/1",
-      //   icon: "user.svg",
-      // },
+
     ],
   },
   {
     id: 2,
-    title: "lists",
+    title: "Report",
     listItems: [
       {
         id: 1,
-        title: "Users",
-        url: "/users",
+        title: "Sale Report",
+        url: "/salereport",
         icon: "user.svg",
-      },
-      {
-        id: 2,
-        title: "Products",
-        url: "/products",
-        icon: "product.svg",
-      },
-      {
-        id: 3,
-        title: "Orders",
-        url: "/orders",
-        icon: "order.svg",
-      },
-      {
-        id: 4,
-        title: "Posts",
-        url: "/posts",
-        icon: "post2.svg",
       },
     ],
   },
   {
     id: 3,
-    title: "general",
+    title: "Stock",
     listItems: [
       {
         id: 1,
-        title: "Elements",
-        url: "/",
+        title: "Inventory",
+        url: "/inventory",
         icon: "element.svg",
-      },
-      {
-        id: 2,
-        title: "Notes",
-        url: "/",
-        icon: "note.svg",
-      },
-      {
-        id: 3,
-        title: "Forms",
-        url: "/",
-        icon: "form.svg",
-      },
-      {
-        id: 4,
-        title: "Calendar",
-        url: "/",
-        icon: "calendar.svg",
       },
     ],
   },
   {
     id: 4,
-    title: "Maintenance",
-    listItems: [
-      {
-        id: 1,
-        title: "Settings",
-        url: "/",
-        icon: "setting.svg",
-      },
-      {
-        id: 2,
-        title: "Backups",
-        url: "/",
-        icon: "backup.svg",
-      },
-    ],
-  },
-  {
-    id: 5,
     title: "analytics",
     listItems: [
       {
         id: 1,
-        title: "Charts",
-        url: "/",
+        title: "Customer",
+        url: "/customer",
         icon: "chart.svg",
-      },
-      {
-        id: 2,
-        title: "Logs",
-        url: "/",
-        icon: "log.svg",
       },
     ],
   },
 ];
 
-export const topDealUsers = [
+export const topProduct = [
   {
     id: 1,
-    img: "https://images.pexels.com/photos/8405873/pexels-photo-8405873.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    username: "Elva McDonald",
-    email: "elva@gmail.com",
-    amount: "3.668",
+    img: "https://store.sony.com.au/on/demandware.static/-/Sites-sony-master-catalog/default/dw1b537bbb/images/PLAYSTATION5W/PLAYSTATION5W.png",
+    title: "Playstation 5 Digital Edition",
+    amount: "30,000",
   },
   {
     id: 2,
-    img: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    username: "Linnie Nelson",
-    email: "linnie@gmail.com",
-    amount: "3.256",
+    img: "https://img.productz.com/review_image/102489/preview_sony-kdl-50w800b-50-inch-hdtv-review-superb-picture-102489.png",
+    title: "Sony Bravia KDL-47W805A",
+    amount: "27,000",
   },
   {
     id: 3,
-    img: "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    username: "Brent Reeves",
-    email: "brent@gmail.com",
-    amount: "2.998",
+    img: "http://images.samsung.com/is/image/samsung/uk-led-tv-hg40ed670ck-hg40ed670ckxxu-001-front",
+    title: "Samsung TV 4K SmartTV",
+    amount: "27,000",
   },
   {
     id: 4,
-    img: "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    username: "Adeline Watson",
-    email: "adeline@gmail.com",
-    amount: "2.512",
+    img: "https://raylo.imgix.net/iphone-14-blue.png",
+    title: "Apple Iphone 14 Pro Max",
+    amount: "26,000",
   },
   {
     id: 5,
-    img: "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    username: "Juan Harrington",
-    email: "juan@gmail.com",
-    amount: "2.134",
+    img: "https://www.signify.com/b-dam/signify/en-aa/about/news/2020/20200903-movie-night-essentials-popcorn-ice-cream-and-the-new-philips-hue-play-gradient-lightstrip/packaging-lighstrip.png",
+    title: "Philips Hue Play Gradient",
+    amount: "20,000",
   },
+];
+
+export const totalSale = [
   {
-    id: 6,
-    img: "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    username: "Augusta McGee",
-    email: "augusta@gmail.com",
-    amount: "1.932",
-  },
-  {
-    id: 7,
-    img: "https://images.pexels.com/photos/874158/pexels-photo-874158.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    username: "Angel Thomas",
-    email: "angel@gmail.com",
-    amount: "1.560",
-  },
+  totalSale : "150,000",
+  percentSale : "50%"
+}
 ];
 
 export const chartBoxUser = {

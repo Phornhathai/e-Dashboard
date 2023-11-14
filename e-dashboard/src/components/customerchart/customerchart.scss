@@ -1,0 +1,38 @@
+.customerchart{
+    width: 100%;
+    height: 100%;
+    
+    
+    .chart{
+        width: 100%;
+        height: 300px;
+    }
+
+    .options{
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        font-size: 14px;
+
+        .option{
+            gap: 10px;
+            align-items: center;
+
+            .age{
+                display: flex;
+                gap: 10px;
+                align-items: center; 
+                font-size: 10px;
+                margin-bottom: 10px;
+
+                .dot{
+                    width: 10px;
+                    height: 10px;
+                    border-radius: 50%;
+                }
+               
+            }
+        }
+    }
+    
+}

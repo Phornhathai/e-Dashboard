@@ -5,6 +5,8 @@ import "./styles/global.scss"
 import Navbar from './components/navbar/Navbar'
 import Menu from './components/menu/Menu'
 import Footer from './components/footer/Footer'
+import Inventory from './pages/inventory/Inventory'
+import Customer from './pages/customer/Customer'
 
 function App() {
   // Layout for set css by global.scss
@@ -19,7 +21,6 @@ function App() {
         <div className="contentContainer">
           {/* each page will show detail with Outlet */}
           <Outlet/>
-          content of pages
         </div>
       </div>
       <Footer/>
@@ -40,6 +41,14 @@ function App() {
         {
           path: "/salereport",
           element: <SaleReport />,
+        },
+        {
+          path: "/inventory",
+          element: <Inventory />,
+        },
+        {
+          path: "/customer",
+          element: <Customer />,
         },
       ],
     },

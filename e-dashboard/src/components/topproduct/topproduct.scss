@@ -1,0 +1,51 @@
+.topproduct {
+    h2 {
+        margin-bottom: 20px;
+    }
+
+    .list {
+        .listItem {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 30px;
+
+            .product {
+                display: flex;
+                gap: 20px;
+
+
+                img {
+                    width: 30px;
+                    height: 30px;
+                    object-fit: cover;
+                    border-radius: 50%;
+                }
+
+                .DetailTexts {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 5px;
+
+                    .productTitle {
+                        font-size: 14px;
+                        font-weight: 500;
+                    }
+
+                }
+            }
+
+            hr{
+                width: 100%;
+                margin: 10px;
+                border: 1px solid gray;
+            }
+            .amount {
+                font-size: 12px;
+                font-weight: 500;
+            }
+
+        }
+    }
+
+}
