@@ -43,7 +43,7 @@ const CustomerChart = () => {
             <h2>New Customer</h2>
             <div className="chart">
                 <ResponsiveContainer width="100%">
-                    <RadialBarChart innerRadius="20%" outerRadius="80%" barSize={10} data={data}>
+                    <RadialBarChart cx={100} innerRadius="20%" outerRadius="80%" barSize={10} data={data}>
                         <RadialBar
                             background
                             dataKey="uv"
