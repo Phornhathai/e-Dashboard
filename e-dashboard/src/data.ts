@@ -83,12 +83,6 @@ export const topProduct = [
   },
 ];
 
-export const totalSale = [
-  {
-  totalSale : "150,000",
-  percentSale : "50%"
-}
-];
 
 export const userRows = [
   {
@@ -99,7 +93,7 @@ export const userRows = [
     email: "kewez@@gmail.com",
     phone: "123 456 789",
     createdAt: "01.02.2023",
-    totalsale: "2500",
+    totalsale: 2500,
   },
   {
     id: 2,
@@ -110,7 +104,7 @@ export const userRows = [
     phone: "123 456 789",
     createdAt: "01.02.2023",
     verified: true,
-    totalsale: "2500",
+    totalsale: 25000,
   },
   {
     id: 3,
@@ -121,7 +115,7 @@ export const userRows = [
     phone: "123 456 789",
     createdAt: "01.02.2023",
     verified: true,
-    totalsale: "3000",
+    totalsale: 30000,
   },
   {
     id: 4,
@@ -132,7 +126,7 @@ export const userRows = [
     phone: "123 456 789",
     createdAt: "01.02.2023",
     verified: true,
-    totalsale: "4500",
+    totalsale: 45000,
   },
   {
     id: 5,
@@ -142,7 +136,7 @@ export const userRows = [
     email: "gobtagbes@yahoo.com",
     phone: "123 456 789",
     createdAt: "01.02.2023",
-    totalsale: "5500",
+    totalsale: 5500,
   },
   {
     id: 6,
@@ -153,7 +147,7 @@ export const userRows = [
     phone: "123 456 789",
     createdAt: "01.02.2023",
     verified: true,
-    totalsale: "3500",
+    totalsale: 3500,
   },
   {
     id: 7,
@@ -163,7 +157,7 @@ export const userRows = [
     email: "reso.bilic@gmail.com",
     phone: "123 456 789",
     createdAt: "01.02.2023",
-    totalsale: "21500",
+    totalsale: 21500,
   },
   {
     id: 8,
@@ -174,7 +168,7 @@ export const userRows = [
     phone: "123 456 789",
     createdAt: "01.02.2023",
     verified: true,
-    totalsale: "25300",
+    totalsale: 24300,
   },
   {
     id: 9,
@@ -184,7 +178,7 @@ export const userRows = [
     email: "uzozor@gmail.com",
     phone: "123 456 789",
     createdAt: "01.02.2023",
-    totalsale: "25004",
+    totalsale: 25004,
   },
   {
     id: 10,
@@ -195,7 +189,7 @@ export const userRows = [
     phone: "123 456 789",
     createdAt: "01.02.2023",
     verified: true,
-    totalsale: "25004",
+    totalsale: 2503,
   },
   {
     id: 11,
@@ -206,7 +200,7 @@ export const userRows = [
     phone: "123 456 789",
     createdAt: "01.02.2023",
     verified: true,
-    totalsale: "250034",
+    totalsale: 2300,
   },
   {
     id: 12,
@@ -216,7 +210,7 @@ export const userRows = [
     email: "tic.harvey@hotmail.com",
     phone: "123 456 789",
     createdAt: "01.02.2023",
-    totalsale: "250023",
+    totalsale: 150000 ,
   },
   {
     id: 13,
@@ -226,7 +220,7 @@ export const userRows = [
     email: "ceuc@gmail.com",
     phone: "123 456 789",
     createdAt: "01.02.2023",
-    totalsale: "250120",
+    totalsale: 39214,
   },
   {
     id: 14,
@@ -236,7 +230,7 @@ export const userRows = [
     email: "bafuv@hotmail.com",
     phone: "123 456 789",
     createdAt: "01.02.2023",
-    totalsale: "25004",
+    totalsale: 9900,
   },
   {
     id: 15,
@@ -246,7 +240,7 @@ export const userRows = [
     email: "ubi@gmail.com",
     phone: "123 456 789",
     createdAt: "01.02.2023",
-    totalsale: "25030",
+    totalsale: 43200,
   },
 ];
 

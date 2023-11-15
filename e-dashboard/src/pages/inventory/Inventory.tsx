@@ -5,6 +5,7 @@ import "./inventory.scss"
 import { Button } from "@mui/material";
 import { ShoppingCartRounded } from '@mui/icons-material';
 import DeleteIcon from '@mui/icons-material/Delete';
+import EditIcon from '@mui/icons-material/Edit';
 
 const columns: GridColDef[] = [
   { field: 'id', headerName: 'ID', width: 90 },
@@ -50,7 +51,7 @@ const columns: GridColDef[] = [
     field: 'inStock',
     headerName: 'In Stock',
     width: 150,
-    type: "string",
+    type: "boolean",
   },
 
 ];
@@ -65,14 +66,14 @@ const Inventory = () => {
         <Button variant="contained" startIcon={<ShoppingCartRounded />}>
           Add item
         </Button>
-        <Button variant="contained" >
+        <Button variant="contained"startIcon={<EditIcon />} >
           Edit item
         </Button>
         <Button variant="contained" startIcon={<DeleteIcon />}>
           Delete
         </Button>
       </div>
-      <DataTable columns={columns} rows={products} />
+      <DataTable slug="inventories" columns={columns} rows={products} />
 
     </div>
   )

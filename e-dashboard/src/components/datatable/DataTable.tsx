@@ -4,7 +4,7 @@ import "./datatable.scss"
 type Props = {
     columns : GridColDef[];
     rows: object[];
-
+    slug: string;
 }
 
 const DataTable = (props : Props) => {
@@ -16,7 +16,7 @@ const DataTable = (props : Props) => {
         initialState={{
           pagination: {
             paginationModel: {
-              pageSize: 10,
+              pageSize: 8,
             },
           },
         }}

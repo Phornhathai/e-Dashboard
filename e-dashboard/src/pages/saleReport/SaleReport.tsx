@@ -44,10 +44,10 @@ const SaleReport = () => {
 
   return (
     <div className="salereport">
-      <div className="info">
         <h2>Sale Report</h2>
-      </div>
+      <div className="info">
       <DataTable columns={columns} rows={listOfSale}/>
+      </div>
     </div>
   )
 }
