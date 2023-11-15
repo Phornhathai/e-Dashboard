@@ -46,7 +46,7 @@ const SaleReport = () => {
     <div className="salereport">
         <h2>Sale Report</h2>
       <div className="info">
-      <DataTable columns={columns} rows={listOfSale}/>
+      <DataTable  slug="salereport" columns={columns} rows={listOfSale}/>
       </div>
     </div>
   )
