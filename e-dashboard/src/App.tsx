@@ -39,10 +39,6 @@ function App() {
           element: <Overview />,
         },
         {
-          path: "/overview",
-          element: <Overview />,
-        },
-        {
           path: "/salereport",
           element: <SaleReport />,
         },

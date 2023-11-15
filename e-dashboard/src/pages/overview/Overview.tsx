@@ -23,6 +23,9 @@ const Overview = () => {
       <div className="box box5">
         <GrowthChart />
       </div>
+      {/* <div className="box box5">
+        box6
+      </div> */}
   
 
     </div>
